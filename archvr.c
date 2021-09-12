@@ -23,7 +23,6 @@ int main()
 	char *token = strtok (input, delim);
 
 	/* while the token is non-empty, put token until NULL */
-
 	 while(token !=NULL) {
 		token = strtok(NULL, delim);
 		ar[i++] = token; /*it takes each section and stores it in an array */
