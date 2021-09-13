@@ -44,7 +44,6 @@ int core()
 
 int main()
 {
-	
 	start();
 	core();
    	return 0;
